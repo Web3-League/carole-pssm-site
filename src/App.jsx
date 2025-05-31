@@ -393,13 +393,14 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-4xl font-bold text-gray-900 mb-6">
-                Carole PLAS, Votre Formatrice PSSM
+                Carole PLAS, votre Formatrice PSSM
               </h3>
               <p className="text-lg text-gray-600 mb-6">
                 Accréditée par PSSM France, je vous accompagne dans
                 l'apprentissage des techniques de premiers secours en santé
-                mentale. Basée en région PACA, mon approche privilégie la
-                bienveillance et la mise en pratique de cas concrets.
+                mentale. Mon approche privilégie la bienveillance, la
+                transmission de connaissances et la mise en pratique de cas
+                concrets.
               </p>
 
               <div className="space-y-4">
