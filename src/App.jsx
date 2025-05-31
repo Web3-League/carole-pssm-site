@@ -314,11 +314,12 @@ function App() {
           <div className="text-center">
             <PSMLogoSVG />
             <h2 className="text-5xl font-bold text-gray-900 mb-6 mt-8">
-              Formatrice Accréditée PSSM France
+              Formatrice Accréditée
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
                 {" "}
                 PSSM
               </span>
+              France
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Devenez secouriste pour aider les personnes qui présentent des
@@ -604,9 +605,7 @@ function App() {
                   </div>
                   <div>
                     <h5 className="font-semibold text-gray-900">Email</h5>
-                    <p className="text-gray-600">
-                      carole.plas@gmail.com
-                    </p>
+                    <p className="text-gray-600">carole.plas@gmail.com</p>
                   </div>
                 </div>
 
