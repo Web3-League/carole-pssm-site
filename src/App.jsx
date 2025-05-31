@@ -605,7 +605,7 @@ function App() {
                   <div>
                     <h5 className="font-semibold text-gray-900">Email</h5>
                     <p className="text-gray-600">
-                      carole.plas@pssm-formation.fr
+                      carole.plas@gmail.com
                     </p>
                   </div>
                 </div>
@@ -619,7 +619,7 @@ function App() {
                       Zone d'intervention
                     </h5>
                     <p className="text-gray-600">
-                      Région PACA et départements limitrophes
+                      Région PACA, Occitanie, Rhône-Alpes, Ile-de-France
                     </p>
                   </div>
                 </div>
