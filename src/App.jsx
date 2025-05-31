@@ -507,7 +507,7 @@ function App() {
               Témoignages
             </h3>
             <p className="text-lg text-gray-600">
-              Ce que disent les participants à nos formations
+              Ce que disent les participants de nos formations
             </p>
           </div>
 
@@ -577,7 +577,7 @@ function App() {
               Contactez-nous
             </h3>
             <p className="text-lg text-gray-600">
-              Prête à vous former aux premiers secours en santé mentale ?
+              Prêt à vous former aux premiers secours en santé mentale ?
             </p>
           </div>
 
@@ -594,7 +594,7 @@ function App() {
                   </div>
                   <div>
                     <h5 className="font-semibold text-gray-900">Téléphone</h5>
-                    <p className="text-gray-600">04 XX XX XX XX</p>
+                    <p className="text-gray-600">06 XX XX XX XX</p>
                   </div>
                 </div>
 
@@ -623,26 +623,12 @@ function App() {
                     </p>
                   </div>
                 </div>
-
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                    <Calendar className="w-6 h-6 text-orange-600" />
-                  </div>
-                  <div>
-                    <h5 className="font-semibold text-gray-900">
-                      Prochaines sessions
-                    </h5>
-                    <p className="text-gray-600">
-                      Consultez notre planning en ligne
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
 
             <div className="bg-white p-8 rounded-2xl shadow-xl">
               <h4 className="text-2xl font-bold text-gray-900 mb-6">
-                Demande d'information
+                Formulaire de Contact
               </h4>
 
               {submitStatus === "success" && (
@@ -692,7 +678,7 @@ function App() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Type de formation
+                    Formation
                   </label>
                   <select
                     name="formation"
@@ -701,11 +687,9 @@ function App() {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   >
                     <option value="PSSM Standard">PSSM Standard</option>
-                    <option value="PSSM Jeunes">PSSM Jeunes</option>
                     <option value="Formation Entreprise">
                       Formation Entreprise
                     </option>
-                    <option value="Recyclage PSSM">Recyclage PSSM</option>
                   </select>
                 </div>
                 <div>
@@ -785,17 +769,7 @@ function App() {
                 </li>
                 <li>
                   <a href="#" className="hover:text-white transition-colors">
-                    PSSM Jeunes
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
                     Formation Entreprise
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Recyclage PSSM
                   </a>
                 </li>
               </ul>
@@ -812,11 +786,6 @@ function App() {
                 <li>
                   <a href="#" className="hover:text-white transition-colors">
                     Accréditations
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Planning
                   </a>
                 </li>
                 <li>
