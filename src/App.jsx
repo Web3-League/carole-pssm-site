@@ -426,7 +426,7 @@ function App() {
                       Publics Ciblés
                     </h4>
                     <p className="text-gray-600">
-                      Particuliers, associations, entreprises
+                      Particuliers, Associations, Entreprises
                     </p>
                   </div>
                 </div>
