@@ -584,7 +584,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
               <h4 className="text-2xl font-bold text-gray-900 mb-8">
-                Informations de contact
+                Prêt à vous former ?
               </h4>
 
               <div className="space-y-6">
@@ -650,7 +650,7 @@ function App() {
               <div className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Nom complet
+                    Nom
                   </label>
                   <input
                     type="text"
